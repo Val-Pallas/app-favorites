@@ -3,68 +3,77 @@ body {
     font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
     font-size: 1rem;
 }
- /* The navigation bar */
+
+/* The navigation bar */
 .navbar {
     overflow: hidden;
     background-color: #f9fbfe;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-  }
-  
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+}
 
-  
-  /* Main content */
-  .main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
-  }
-  
-  .btn-signup {
+
+
+/* Main content */
+.main {
+    margin-top: 30px;
+    /* Add a top margin to avoid content overlay */
+}
+
+.btn-signup {
     background-color: #55c8d7;
     color: #f9fbfe;
     padding: 8px 16px;
     border-radius: 4px;
     text-decoration: none;
-  }
-  
-  .btn-signup:hover {
+}
+
+.btn-signup:hover {
     background-color: #44a5b0;
-  }
-  .banner-container {
+}
+
+.banner-container {
     padding-top: 15%;
     display: inline-block;
     text-align: center;
     width: 100%;
     background-color: #f9fbfe;
     height: 20%;
-  }
- 
-  .banner-container h1 {
+}
 
-    font-family:  "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif ;
-   
+.banner-container h1 {
+
+    font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
+
     font-size: 48px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: .03em;
     color: #2b546a;
-    
-  }
-  .banner-container P {
-    
+
+}
+
+.banner-container P {
+
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
 
-  }
-  .banner-container img {
+}
+
+.banner-container img {
     width: 15px;
     height: 15px;
     color: #5876a3;
     font: 100%/1.5 "Lato", "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo, "MS PGothic", sans-serif;
     -webkit-tap-highlight-color: transparent;
     line-height: 1.7142857143;
-  }
-  .btn-getstarted {
+}
+
+.btn-getstarted {
     margin-top: 3%;
     display: inline-block;
     font-size: 0.875rem;
@@ -82,12 +91,13 @@ body {
     border-radius: 5px;
     font-weight: bold;
     letter-spacing: 0.02em;
-  }
+}
 
-  .landing-introduction__counter-container-inner-icon {
+.landing-introduction__counter-container-inner-icon {
     width: 20px;
     margin-right: 8px;
 }
+
 .landing-introduction__counter-container-spacer {
     margin-right: 3px;
 }
@@ -99,7 +109,7 @@ body {
     letter-spacing: .03em;
 }
 
-.image-container-chat{
+.image-container-chat {
     padding-top: 80px;
     padding: 100px 4.16% 0;
     overflow: hidden;
@@ -107,14 +117,15 @@ body {
     width: auto;
     display: flex;
     justify-content: center;
-    margin-top: 300px  
-
+    margin-top: 300px
 }
+
 .image-container-chat img {
-    width: 100% ;
+    width: 100%;
     height: 100%;
 
 }
+
 .landing-container {
     display: flex;
     flex-direction: column;
@@ -128,8 +139,8 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-user agent stylesheet
-div {
+
+user agent stylesheet div {
     display: block;
 }
 
@@ -138,6 +149,7 @@ div {
     text-align: center;
     color: #fff;
 }
+
 .landing-container {
     display: flex;
     flex-direction: column;
@@ -145,21 +157,20 @@ div {
     align-items: center;
     padding: 96px 4.16%;
 }
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-user agent stylesheet
-div {
+
+user agent stylesheet div {
     display: block;
 }
 
 element.style {
 
- @media (max-width: 991px)
-
-    .landing-success-story-card__main {
+    @media (max-width: 991px) .landing-success-story-card__main {
         max-width: initial;
         background: #fff;
         border-radius: 10px;
@@ -171,10 +182,789 @@ element.style {
         font-weight: bold;
         height: 100%;
         transition: .3s;
-    * {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
     }
 }
+
+element.style {}
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 4.16%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+body {
+    color: #8491a5;
+    font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    font-size: 0.875rem;
+}
+
+html:lang(en),
+html:lang(id) {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+html {
+    font: 100%/1.5 "Lato", "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo, "MS PGothic", sans-serif;
+    color: #5876a3;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.7142857143;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::selection {
+    color: #16325c;
+    background: #8be0e6;
+}
+
+@media (max-width: 991px) {}
+
+.landing-plan__lesson-info {
+    grid-gap: 4.54vw;
+    background-color: #f0f4f9;
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    border-radius: 10px;
+    padding: 0 40px;
+}
+
+element.style {}
+
+.landing-plan__lesson-info__image {
+    display: flex;
+    width: 80%;
+    margin-top: 48px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.landing-plan__lesson-info__title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+element.style {}
+
+.landing-heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #2b546a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    line-height: 1.7142857143;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #2b546a;
+    font-weight: normal;
+}
+
+element.style {}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.landing-heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #2b546a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    line-height: 1.7142857143;
+}
+
+@media (max-width: 991px)  {}
+
+.landing-plan__inner {
+    grid-gap: 4.54vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    margin-bottom: 32px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.landing-plan__plan-info {
+    background-color: #f0f4f9;
+    padding: 80px 16px 64px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+user agent stylesheet div {
+    display: block;
+}
+
+.landing-heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+    color: #2b546a;
+}
+h1, h2, h3, h4, h5, p {
+    line-height: 1.7142857143;
+}
+.landing-body-text {
+    font-size: 1rem;
+    line-height: 2;
+    margin-top: 16px;
+}
+
+h1, h2, h3, h4, h5, p {
+    line-height: 1.7142857143;
+}
+iframe, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, ul, dl, figure, fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.landing-plan__plan-info__lesson-detail {
+    font-weight: bold;
+    color: #2b546a;
+    margin-top: 40px;
+}
+
+.landing-body-text {
+    font-size: 1rem;
+    line-height: 2;
+    margin-top: 16px;
+}
+h1, h2, h3, h4, h5, p {
+    line-height: 1.7142857143;
+}
+
+.landing-plan__plan-info__price {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: #2b546a;
+    margin-top: 8px;
+    line-height: 1;
+}
+
+h1, h2, h3, h4, h5, p {
+    line-height: 1.7142857143;
+}
+iframe, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, ul, dl, figure, fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.landing-plan__plan-info:last-child {
+    background-color: #f7edad;
+}
+.landing-plan__plan-info {
+    background-color: #f0f4f9;
+    padding: 80px 16px 64px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.landing-plan__plan-info {
+    background-color: #f0f4f9;
+    padding: 80px 16px 64px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.landing-body-text {
+    font-size: 1rem;
+    line-height: 2;
+    margin-top: 16px;
+}
+
+a {
+    color: #0070d2;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+a {
+    background-color: transparent;
+}
+.fa-external-link:before {
+    content: "\f08e";
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+user agent stylesheet
+i {
+    font-style: italic;
+}
+.landing-body-text {
+    font-size: 1rem;
+    line-height: 2;
+    margin-top: 16px;
+}
+a {
+    color: #0070d2;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.landing-heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+    color: #2b546a;
+}
+h1, h2, h3, h4, h5, p {
+    line-height: 1.7142857143;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2b546a;
+    font-weight: normal;
+}
+iframe, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, ul, dl, figure, fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.landing-app__main {
+    text-align: center;
+    padding-top: 0;
+}
+.landing-body-text {
+    font-size: 1rem;
+    line-height: 2;
+    margin-top: 16px;
+}
+
+h1, h2, h3, h4, h5, p {
+    line-height: 1.7142857143;
+}
+iframe, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, ul, dl, figure, fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.landing-app__main {
+    text-align: center;
+    padding-top: 0;
+}
+
+@media (max-width: 991px)
+{
+}
+
+.landing-app__main-inner {
+    padding: 5.2% 5.2% 0;
+    background-color: #90c3f0;
+    color: #fff;
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 56px;
+    max-width: 1000px;
+    display: flex;
+    padding: 64px 64px 0;
+}
+
+.landing-message__main-text {
+    margin-top: 24px;
+}
+.landing-body-text {
+    font-size: 1rem;
+    line-height: 2;
+    margin-top: 16px;
+}
+h1, h2, h3, h4, h5, p {
+    line-height: 1.7142857143;
+}
+iframe, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, ul, dl, figure, fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.landing-message__text-container {
+    text-align: center;
+}
+body {
+    color: #8491a5;
+    font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
+    font-size: 1rem;
+}
+body {
+    font-size: 0.875rem;
+}
+html:lang(en), html:lang(id) {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+html {
+    font: 100%/1.5 "Lato", "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo, "MS PGothic", sans-serif;
+    color: #5876a3;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.7142857143;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    color: #16325c;
+    background: #8be0e6;
+}
+.landing-start__main {
+    text-align: center;
+}
+
+.landing-container--text {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 4.16%;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.landing-start__main-text {
+    margin-bottom: 40px;
+}
+
+.landing-body-text {
+    font-size: 1rem;
+    line-height: 2;
+    margin-top: 16px;
+}
+h1, h2, h3, h4, h5, p {
+    line-height: 1.7142857143;
+}
+iframe, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, ul, dl, figure, fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.landing-start__main {
+    text-align: center;
+}
+.caYTxy {
+    display: inline-block;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 0px 16px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 200, 214);
+    min-width: 200px;
+    line-height: 48px;
+    font-family: AvenirNext, Lato, "Hirago KakuGothic ProN", Meiryo, sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+}
+.landing-sns__main {
+    display: flex;
+    justify-content: center;
+    padding: 48px 0;
+    background: #fff;
+    color: #16325c;
+    background: #8be0e6;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.u-pb50 {
+    padding-bottom: 50px;
+}
+
+.u-pt50 {
+    padding-top: 50px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.footer {
+    border-top: 1px solid #eee;
+    clear: left;
+    letter-spacing: .04em;
+    font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
+}
+body {
+    color: #8491a5;
+    font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
+    font-size: 1rem;
+}
+body {
+    font-size: 0.875rem;
+}
+html:lang(en), html:lang(id) {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+html {
+    font: 100%/1.5 "Lato", "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo, "MS PGothic", sans-serif;
+    color: #5876a3;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.7142857143;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    color: #16325c;
+    background: #8be0e6;
+}
+.u-pb50 {
+    padding-bottom: 50px;
+}
+
+.u-pt50 {
+    padding-top: 50px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.footer {
+    border-top: 1px solid #eee;
+    clear: left;
+    letter-spacing: .04em;
+    font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
+}
+body {
+    color: #8491a5;
+    font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
+    font-size: 1rem;
+}
+body {
+    font-size: 0.875rem;
+}
+html:lang(en), html:lang(id) {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+html {
+    font: 100%/1.5 "Lato", "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo, "MS PGothic", sans-serif;
+    color: #5876a3;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.7142857143;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    color: #16325c;
+    background: #8be0e6;
+}
+.footer__logo {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 144px;
+    height: auto;
+    padding-bottom: 48px;
+    margin: 4px 0 0;
+    background: url(https://prog-8.com/assets/landing/primary_logo-4d18105….svg) no-repeat;
+    background-size: 100%;
+}
+
+@media (max-width: 991px)
+{
+}
+
+.landing-success-story-card__main {
+    max-width: initial;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px 24px;
+    flex-direction: column;
+    max-width: 312px;
+    display: grid;
+    text-align: center;
+    font-weight: bold;
+    height: 100%;
+    transition: .3s;
+}
+.success-story__main-list {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4.16vw;
+}
+
+.success-story__main-list {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4.16vw;
+}
+
+.success-story__main-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 32px;
+    margin: 56px 0;
 }
