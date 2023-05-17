@@ -791,7 +791,7 @@ p {
     padding: 48px 0;
     background: #fff;
     color: #16325c;
-    background: #8be0e6;
+    background: #fff;
 }
 
 * {
@@ -877,12 +877,7 @@ user agent stylesheet
 div {
     display: block;
 }
-.footer {
-    border-top: 1px solid #eee;
-    clear: left;
-    letter-spacing: .04em;
-    font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
-}
+
 body {
     color: #8491a5;
     font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
@@ -919,10 +914,7 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-::selection {
-    color: #16325c;
-    background: #8be0e6;
-}
+
 .footer__logo {
     text-indent: 100%;
     white-space: nowrap;
@@ -967,4 +959,18 @@ html {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 32px;
     margin: 56px 0;
+}
+.landing-sns__main .landing-sns__icon {
+    width: 24px;
+    margin-left: 40px;
+    transition: .3s;
+}
+
+a {
+    color: #0070d2;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+a {
+    background-color: transparent;
 }
