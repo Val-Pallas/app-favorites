@@ -1,4 +1,180 @@
+body {
+    color: #8491a5;
+    font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
+    font-size: 1rem;
+}
+ /* The navigation bar */
 .navbar {
-background-color: #2f3152;
-text-align: center;
+    overflow: hidden;
+    background-color: #f9fbfe;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+  
+  .btn-signup {
+    background-color: #55c8d7;
+    color: #f9fbfe;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .btn-signup:hover {
+    background-color: #44a5b0;
+  }
+  .banner-container {
+    padding-top: 15%;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: #f9fbfe;
+    height: 20%;
+  }
+ 
+  .banner-container h1 {
+
+    font-family:  "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif ;
+   
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: .03em;
+    color: #2b546a;
+    
+  }
+  .banner-container P {
+    
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+
+  }
+  .banner-container img {
+    width: 15px;
+    height: 15px;
+    color: #5876a3;
+    font: 100%/1.5 "Lato", "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo, "MS PGothic", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.7142857143;
+  }
+  .btn-getstarted {
+    margin-top: 3%;
+    display: inline-block;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 0px 16px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 200, 214);
+    min-width: 200px;
+    line-height: 48px;
+    font-family: AvenirNext, Lato, "Hirago KakuGothic ProN", Meiryo, sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+  }
+
+  .landing-introduction__counter-container-inner-icon {
+    width: 20px;
+    margin-right: 8px;
+}
+.landing-introduction__counter-container-spacer {
+    margin-right: 3px;
+}
+
+.landing-introduction__counter-container-inner-count {
+    font-weight: bold;
+    font-size: 18px;
+    color: #2b546a;
+    letter-spacing: .03em;
+}
+
+.image-container-chat{
+    padding-top: 80px;
+    padding: 100px 4.16% 0;
+    overflow: hidden;
+    background: #88e7ce;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px  
+
+}
+.image-container-chat img {
+    width: 100% ;
+    height: 100%;
+
+}
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 4.16%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.success-story__main {
+    background-color: #2b546a;
+    text-align: center;
+    color: #fff;
+}
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 4.16%;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+element.style {
+
+ @media (max-width: 991px)
+
+    .landing-success-story-card__main {
+        max-width: initial;
+        background: #fff;
+        border-radius: 10px;
+        padding: 40px 24px;
+        flex-direction: column;
+        max-width: 312px;
+        display: grid;
+        text-align: center;
+        font-weight: bold;
+        height: 100%;
+        transition: .3s;
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
 }
