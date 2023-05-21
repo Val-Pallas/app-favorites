@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log In</title>
+    <style>
+        /* Styles pour la fenêtre contextuelle */
+        .popup-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s, opacity 0.5s;
+        }
+
+        .popup-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .popup-container.show {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>progate</h1>
+    <button onclick="showPopup()">Login</button>
+
+    <div class="popup-container" id="popup">
+        <div class="popup-content">
+            <h2>Log In</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <button type="submit">Se connecter</button>
+            </form>
+            <button onclick="hidePopup()">Fermer</button>
+        </div>
+    </div>
+
+    <script>
+        function showPopup() {
+            var popup = document.getElementById('popup');
+            popup.classList.add('show');
+        }
+
+        function hidePopup() {
+            var popup = document.getElementById('popup');
+            popup.classList.remove('show');
+        }
+    </script>
+</body>
+</html>
