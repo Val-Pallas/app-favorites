@@ -16,8 +16,6 @@ body {
     /* Full width */
 }
 
-
-
 /* Main content */
 .main {
     margin-top: 30px;
@@ -150,24 +148,6 @@ user agent stylesheet div {
     color: #fff;
 }
 
-.landing-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 96px 4.16%;
-}
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-user agent stylesheet div {
-    display: block;
-}
-
 element.style {
 
     @media (max-width: 991px) .landing-success-story-card__main {
@@ -191,6 +171,7 @@ element.style {
     }
 }
 
+<<<<<<< HEAD:app-favorites.css
 .landing-container {
     display: flex;
     flex-direction: column;
@@ -215,6 +196,8 @@ body {
     font-size: 1rem;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 body {
     font-size: 0.875rem;
 }
@@ -239,13 +222,6 @@ html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-}
-
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 *:before,
@@ -296,12 +272,15 @@ img {
     padding: 32px 0;
 }
 
+<<<<<<< HEAD:app-favorites.css
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .landing-heading {
     font-size: 2rem;
     font-weight: bold;
@@ -333,17 +312,21 @@ h6 {
     font-weight: normal;
 }
 
+<<<<<<< HEAD:app-favorites.css
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .landing-heading {
     font-size: 2rem;
     font-weight: bold;
 }
 
+<<<<<<< HEAD:app-favorites.css
 h1,
 h2,
 h3,
@@ -362,6 +345,8 @@ p {
 
 @media (max-width: 991px) {}
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .landing-plan__inner {
     grid-gap: 4.54vw;
     display: grid;
@@ -370,12 +355,15 @@ p {
     margin-bottom: 32px;
 }
 
+<<<<<<< HEAD:app-favorites.css
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .landing-plan__plan-info {
     background-color: #f0f4f9;
     padding: 80px 16px 64px;
@@ -385,16 +373,20 @@ p {
     justify-content: space-between;
     text-align: center;
 }
+<<<<<<< HEAD:app-favorites.css
 
 user agent stylesheet div {
     display: block;
 }
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 
 .landing-heading {
     font-size: 2rem;
     font-weight: bold;
 }
 
+<<<<<<< HEAD:app-favorites.css
 h1,
 h2,
 h3,
@@ -411,12 +403,15 @@ p {
     line-height: 1.7142857143;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .landing-body-text {
     font-size: 1rem;
     line-height: 2;
     margin-top: 16px;
 }
 
+<<<<<<< HEAD:app-favorites.css
 h1,
 h2,
 h3,
@@ -425,6 +420,8 @@ h5,
 p {
     line-height: 1.7142857143;
 }
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 
 iframe,
 h1,
@@ -454,6 +451,7 @@ fieldset {
     margin-top: 40px;
 }
 
+<<<<<<< HEAD:app-favorites.css
 .landing-body-text {
     font-size: 1rem;
     line-height: 2;
@@ -469,6 +467,8 @@ p {
     line-height: 1.7142857143;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .landing-plan__plan-info__price {
     font-weight: bold;
     font-size: 48px;
@@ -478,6 +478,7 @@ p {
     line-height: 1;
 }
 
+<<<<<<< HEAD:app-favorites.css
 h1,
 h2,
 h3,
@@ -515,6 +516,8 @@ fieldset {
     box-sizing: border-box;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 user agent stylesheet p {
     display: block;
     margin-block-start: 1em;
@@ -537,12 +540,15 @@ user agent stylesheet p {
     text-align: center;
 }
 
+<<<<<<< HEAD:app-favorites.css
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .landing-plan__plan-info {
     background-color: #f0f4f9;
     padding: 80px 16px 64px;
@@ -552,12 +558,15 @@ user agent stylesheet p {
     justify-content: space-between;
     text-align: center;
 }
+<<<<<<< HEAD:app-favorites.css
 
 .landing-body-text {
     font-size: 1rem;
     line-height: 2;
     margin-top: 16px;
 }
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 
 a {
     color: #0070d2;
@@ -573,6 +582,7 @@ a {
     content: "\f08e";
 }
 
+<<<<<<< HEAD:app-favorites.css
 *:before,
 *:after {
     -webkit-box-sizing: border-box;
@@ -580,6 +590,8 @@ a {
     box-sizing: border-box;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -593,6 +605,7 @@ user agent stylesheet i {
     font-style: italic;
 }
 
+<<<<<<< HEAD:app-favorites.css
 .landing-body-text {
     font-size: 1rem;
     line-height: 2;
@@ -605,6 +618,8 @@ a {
     transition: color .1s linear;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
@@ -623,6 +638,7 @@ a:-webkit-any-link {
 h1,
 h2,
 h3,
+<<<<<<< HEAD:app-favorites.css
 h4 {
     color: #2b546a;
 }
@@ -639,6 +655,8 @@ p {
 h1,
 h2,
 h3,
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 h4,
 h5,
 h6 {
@@ -646,6 +664,7 @@ h6 {
     font-weight: normal;
 }
 
+<<<<<<< HEAD:app-favorites.css
 iframe,
 h1,
 h2,
@@ -674,6 +693,8 @@ fieldset {
     box-sizing: border-box;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 user agent stylesheet h2 {
     display: block;
     font-size: 1.5em;
@@ -688,6 +709,7 @@ user agent stylesheet h2 {
     text-align: center;
     padding-top: 0;
 }
+<<<<<<< HEAD:app-favorites.css
 
 .landing-body-text {
     font-size: 1rem;
@@ -746,6 +768,8 @@ user agent stylesheet p {
 }
 
 @media (max-width: 991px) {}
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 
 .landing-app__main-inner {
     padding: 5.2% 5.2% 0;
@@ -763,6 +787,7 @@ user agent stylesheet p {
     margin-top: 24px;
 }
 
+<<<<<<< HEAD:app-favorites.css
 .landing-body-text {
     font-size: 1rem;
     line-height: 2;
@@ -814,10 +839,13 @@ user agent stylesheet p {
     margin-inline-end: 0px;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .landing-message__text-container {
     text-align: center;
 }
 
+<<<<<<< HEAD:app-favorites.css
 body {
     color: #8491a5;
     font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
@@ -860,6 +888,8 @@ html {
     background: #8be0e6;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .landing-start__main {
     text-align: center;
 }
@@ -869,6 +899,7 @@ html {
     padding-bottom: 120px;
 }
 
+<<<<<<< HEAD:app-favorites.css
 .landing-container {
     display: flex;
     flex-direction: column;
@@ -883,10 +914,13 @@ html {
     box-sizing: border-box;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .landing-start__main-text {
     margin-bottom: 40px;
 }
 
+<<<<<<< HEAD:app-favorites.css
 .landing-body-text {
     font-size: 1rem;
     line-height: 2;
@@ -942,6 +976,8 @@ user agent stylesheet p {
     text-align: center;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .caYTxy {
     display: inline-block;
     font-size: 0.875rem;
@@ -970,12 +1006,15 @@ user agent stylesheet p {
     background: #fff;
 }
 
+<<<<<<< HEAD:app-favorites.css
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .u-pb50 {
     padding-bottom: 50px;
 }
@@ -984,6 +1023,7 @@ user agent stylesheet p {
     padding-top: 50px;
 }
 
+<<<<<<< HEAD:app-favorites.css
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -994,6 +1034,8 @@ user agent stylesheet div {
     display: block;
 }
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .footer {
     border-top: 1px solid #eee;
     clear: left;
@@ -1001,6 +1043,7 @@ user agent stylesheet div {
     font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
 }
 
+<<<<<<< HEAD:app-favorites.css
 body {
     color: #8491a5;
     font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
@@ -1096,6 +1139,15 @@ html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+=======
+html:lang(en),
+html:lang(id) {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -font-smooth: antialiased;
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 }
 
 .footer__logo {
@@ -1110,8 +1162,11 @@ html {
     background-size: 100%;
 }
 
+<<<<<<< HEAD:app-favorites.css
 @media (max-width: 991px) {}
 
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 .landing-success-story-card__main {
     max-width: initial;
     background: #fff;
@@ -1125,11 +1180,14 @@ html {
     height: 100%;
     transition: .3s;
 }
+<<<<<<< HEAD:app-favorites.css
 
 .success-story__main-list {
     grid-template-columns: 1fr 1fr;
     grid-gap: 4.16vw;
 }
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 
 .success-story__main-list {
     grid-template-columns: 1fr 1fr;
@@ -1147,6 +1205,7 @@ html {
     width: 24px;
     margin-left: 40px;
     transition: .3s;
+<<<<<<< HEAD:app-favorites.css
 }
 
 a {
@@ -1157,4 +1216,6 @@ a {
 
 a {
     background-color: transparent;
+=======
+>>>>>>> 0a032a8 (fusion de site):valeriapp/app-favorites.css
 }
